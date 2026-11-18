@@ -1,0 +1,63 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2193b0, #6dd5ed);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.weather-box {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.weather-box h2 {
+    color: #2193b0;
+    margin-bottom: 20px;
+}
+
+#temperature {
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#description {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.details {
+    background: #eaf8fc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.details p {
+    margin: 10px 0;
+    color: #333;
+}
